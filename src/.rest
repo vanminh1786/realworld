@@ -1,0 +1,23 @@
+POST https://api.realworld.io/api/users
+Content-type: application/json
+
+{
+  "user":{
+    "username": "Jacobasdcxzs",
+    "email": "jake@jake.jakereg",
+    "password": "jakejake"
+  }
+}
+###
+POST https://api.realworld.io/api/articles
+Content-type: application/json
+Authorization:Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Inp4Y3Zibm1AenhjLnp4YyIsInVzZXJuYW1lIjoienhjdmJubWFzZGYiLCJpYXQiOjE2NjA2MzU3NTgsImV4cCI6MTY2NTgxOTc1OH0.d2lNIMGMFIzOfAoiXuJik6XXNvfLhYsWF6ICBNOUBFo
+
+{
+  "article": {
+    "title": "How to train your dragon 3",
+    "description": "Ever wonder how?",
+    "body": "You have to believe",
+    "tagList": ["reactjs", "angularjs", "dragons"]
+  }
+}
